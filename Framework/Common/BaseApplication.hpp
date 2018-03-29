@@ -10,7 +10,7 @@ namespace My{
             //One cycle of the main loop
             virtual void Tick();
 
-            virtual boll IsQuit();
+            virtual bool IsQuit();
 
         protected:
             //Flag if need quit the main loop of the application

@@ -1,7 +1,7 @@
 #include "BaseApplication.hpp"
 //Parse command Line, read configuration, initialize all sub modules
 
-int My::BaseApplication::initialize()
+int My::BaseApplication::Initialize()
 {
     m_bQuit = false;
 
